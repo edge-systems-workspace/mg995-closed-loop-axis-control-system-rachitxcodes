@@ -1,3 +1,9 @@
+/**
+ * @file main.cpp
+ * @brief MG995 servo axis control
+ * @author Rachit
+ * @date 2026
+ */
 #include <Arduino.h>
 #include <Servo.h>
 Servo myServo;
@@ -19,7 +25,7 @@ void loop() {
     delay(50);
     myServo.write(180);
     delay(50);
-    
+
     // Move from 0° to 180°
 //     for (int pos = 0; pos <= 180; pos++) {
 //         myServo.write(pos);
