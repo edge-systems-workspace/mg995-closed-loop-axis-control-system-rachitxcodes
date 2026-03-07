@@ -11,4 +11,6 @@ void setup() {
 
 void loop() {
 // write your code here
+    myServo.write(0);
+    delay(500);
 }
